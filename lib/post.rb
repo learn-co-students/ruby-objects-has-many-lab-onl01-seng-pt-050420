@@ -7,14 +7,9 @@ class Post
         @title = title
         @@all << self
     end
-    
-    def author=(author)
-        @author = author
-        author.posts << self
-    end
 
     def author_name
-        self.author ? self.author.name : nil
+        author.name if author
     end
 
     def self.all
