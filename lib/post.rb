@@ -19,14 +19,10 @@ class Post
   end
 
   def author_name
-<<<<<<< HEAD
-=======
-    binding.pry
->>>>>>> f64258cc588177b3971f989715289bd4982961dd
-    if @author.name != ""
-      @author.name
+    if @author == nil
+      return nil
     else
-      nil
+      @author.name
     end
   end
 
