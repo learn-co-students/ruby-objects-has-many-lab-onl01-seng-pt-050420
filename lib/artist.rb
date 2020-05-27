@@ -1,7 +1,11 @@
 
 require 'pry'
 class Artist
+<<<<<<< HEAD
   attr_accessor :name, :songs
+=======
+  attr_accessor :name
+>>>>>>> f64258cc588177b3971f989715289bd4982961dd
 
 
 
